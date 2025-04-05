@@ -95,15 +95,17 @@ section{
     padding: 110px 16% 90px;
 }
 
-.hero{
-    height: 90vh;
-    width: 90;
+.hero {
+    min-height: 100vh;
+    width: 100%;
     background: url(../img/2.png);
     background-position: top right;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 0 5%; /* optional, for spacing */
 }
 
 @keyframes fadeInUp {
@@ -313,6 +315,9 @@ header.sticky{
 }
 
 .certifications{
+    background: var(--second-bg-color);
+}
+.contact{
     background: var(--second-bg-color);
 }
 
